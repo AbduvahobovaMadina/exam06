@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react"
+import "./App.css"
 import Home from "./pages/home/Home";
-import Login from './pages/login/Login';
-import { Route, Routes } from 'react-router-dom'
-import Layout from './pages/layout/Layout';
-import Detail from './pages/detail/Detail';
-import Admin from './pages/admin/Admin';
-import Manage from './pages/admin/Manage';
-import Name from './pages/admin/Name';
+import Login from "./pages/login/Login";
+import { Route, Routes } from "react-router-dom"
+import Layout from "./pages/layout/Layout";
+import Detail from "./pages/detail/Detail";
+import Admin from "./pages/admin/Admin";
+import Manage from "./pages/admin/Manage";
+import Name from "./pages/admin/Name";
 import Error from "./pages/erorr/Error"
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route path="/" element={<Home/>} />
-          <Route path='/login' element={<Login/>}/>
+          <Route path="/login" element={<Login/>}/>
           <Route path="/product/:id" element={<Detail/>} />
           <Route path='*' element={<Error/>}/>
         </Route>

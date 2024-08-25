@@ -9,7 +9,7 @@ import { AiFillYoutube } from "react-icons/ai";
 import { BsTelephoneOutboundFill } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
-import logo from "../../assets/header.png";
+import logo from "../../assets/Header.png";
 import photo1 from "../../assets/facebook.svg";
 import photo2 from "../../assets/google.svg";
 import all from "../../assets/all.png";
