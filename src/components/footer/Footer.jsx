@@ -1,3 +1,4 @@
+import React,{memo} from "react";
 import { AiOutlinePinterest } from "react-icons/ai";
 import { CiClock1 } from "react-icons/ci";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -18,7 +19,7 @@ const Footer = () => {
     <div className="footer container mx-auto mt-20 pb-8">
         <div className="container">
                   <img className="mb-5" src={logo} alt="" />
-      <div className="grid grid-cols-1 sm:grid-cols-3 ml-0 gap-4 md:grid-cols-5 ml-16 gap-16 lg:grid-cols-6 gap-4 mb-8 ml-8 ">
+      <div className="grid grid-cols-1 sm:grid-cols-3   md:grid-cols-5 lg:grid-cols-6 gap-4 mb-8 ml-8 ">
         <div className="flex flex-col gap-5">
           <p className="text-[14px] text-start text-[#253D4E]">
             Awesome grocery store websitetemplate
@@ -206,4 +207,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default memo (Footer);
