@@ -4,7 +4,7 @@ import Products from '../../components/products/Product'
 import { useFetch } from '../../hooks/useFetch'
 import Hero from "../../components/hero/Hero"
 import Options from "../../components/options/Options"
-import Catalog from '../../components/catalog/Catalog'
+import Catalog from '../../components/catalog/Catalog.jsx'
 import Delivery from '../../components/delivery/Delivery'
 
 

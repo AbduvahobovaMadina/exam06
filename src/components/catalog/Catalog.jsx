@@ -4,7 +4,7 @@ import photo1 from '../../assets/photo1.png'
 import photo2 from '../../assets/photo2.png'
 import photo3 from '../../assets/photo3.png'
 import photo4 from '../../assets/photo4.png'
-import './Catalog.scss'
+import './catalog.scss'
 
 const Catalog = () => {
   return (
