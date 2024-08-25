@@ -1,0 +1,13 @@
+.btn{
+    transition: .3s
+}
+
+
+.btn:hover{
+    box-shadow: 0 7px 10px #15803c52;
+}
+@media (max-width:640px) {
+    .title{
+        margin-top: -150px;
+    }
+}

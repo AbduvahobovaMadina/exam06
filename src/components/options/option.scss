@@ -1,0 +1,20 @@
+.option{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 10px;
+    @media(max-width:1160px){
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    @media(max-width: 800px){
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    @media(max-width: 600px){
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
